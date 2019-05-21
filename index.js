@@ -28,4 +28,4 @@ const createComponent = async () => {
 }
 
 if (type === 'store') createStore()
-if (type === 'component') {} createComponent()
+if (type === 'component') createComponent()
