@@ -1,6 +1,6 @@
 {
   "name": "project-file-templates",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Create file templates in a second",
   "main": "index.js",
   "scripts": {
