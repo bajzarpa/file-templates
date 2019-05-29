@@ -23,7 +23,7 @@ const createStore = async () => {
 const createComponent = async () => {
   await fs.mkdirsSync(`./${name}`)
   await fs.writeFileSync(`./${name}/index.js`, componentFactory.component(moduleName))
-  await fs.writeFileSync(`./${name}/template.html`, componentFactory.component(name))
+  await fs.writeFileSync(`./${name}/template.html`, componentFactory.template(name))
   await fs.writeFileSync(`./${name}/style.scss`, componentFactory.styles(name))
 }
 
